@@ -1,0 +1,29 @@
+body{
+    /* body = representa o seletor, é a marcação que será formatada */
+    background-color: aqua;
+    background-color: #548798;
+    background-color: rgb(12, 87, 245);
+    /* o último atributo é que ficará! CASCATA... */
+
+    font-family: Arial, Helvetica, sans-serif
+    /* Font-family = São as fontes do próprio site, sendo divididas em famílias, como as não sarifadas e as sarifadas.
+     Se um computador nao tiver um Arial, por ser não sarifacada , voce puxara para a Helvetica, que é outra que nao é sarifada, se nao tiver Helvetica, vai para outra fonte não sarifada, e assim sucessivamente.
+     Se ocorrer o caso de não ter nenhuma fonte sequer, irá para a fonte padrão do navegador.
+    */
+}
+h1{
+    color: chocolate;
+    /* define a cor do texto */
+    text-align: center;
+}
+h2{
+    background-color: black;
+    color: aliceblue;
+
+}
+li{
+    background-color: aquamarine;
+    list-style-type: decimal;
+    /* este atributo é APENAS para os seletores OL, LI e UL */
+    list-style-position: inside;
+}

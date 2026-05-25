@@ -1,0 +1,17 @@
+body{
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h2{
+        color:black
+    }
+    li{
+        ol{
+            list-style-type: decimal;
+        }
+        ul{
+            list-style-type: circle;
+        }
+    }
+    
+}

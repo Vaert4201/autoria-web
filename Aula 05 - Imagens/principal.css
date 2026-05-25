@@ -1,0 +1,15 @@
+body{  /* SETOR */
+    background-color: cornflowerblue;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+li{
+    
+    list-style-type: url(Empreenda_2026.width-800.png); 
+    list-style-type: url(PERERAS.png);
+    list-style-type: url(images.jpg);
+    
+}

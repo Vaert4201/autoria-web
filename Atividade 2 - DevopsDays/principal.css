@@ -1,0 +1,10 @@
+body{
+    background-color: wheat;
+    margin: 0;
+}
+h1{
+    margin: 0;
+    background-color: rgba(210, 166, 23, 0.61);
+    text-align: center;
+    padding: 0;
+}

@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(245, 222, 179);
+      background-image: url(bg-tile.png);
+    /*  */
+    /* uma imagem de background será SEMPRE DECORATIVA,
+    isto é, não será INFORMACIONAL
+    para imagens informacionais é neessário utilizar a marcação de IMG
+     */
+      background-image: url(bg-marca.png);
+      background-repeat: repeat-y;
+     /* repetição: x é eixo x, horizontal. y é eixo y, vertical. */
+      background-position: right;     
+      /* Posição da imagem de plano de fundo: left, right, center ou um valor */
+      margin: 0;
+      padding: 0;
+    
+h1{
+    margin: 0;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 5rem  /* ESPAÇAMENTO INTERNO */
+}
+h1 a{
+    color: white
+}
+
+       
+}
+ a:hover{ /*  SUBCLASSE DO CSS - EFEITO DE PASSAR O MOUSE */
+    background-color: rgb(214, 183, 126);
+}
+/* 
+a:link
+a:active
+a:visited
+*/
