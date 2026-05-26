@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=principal.css>
+    <title>Devopdays </title>
+</head>
+<body>
+
+<header class= "cabecalho">   
+
+    <h1><a href="index.html">Devopdays Natal 2026</a></h1>
+    
+    <ol class="menu">
+    <li><a href="index.html">INÍCIO</a></li>
+    <li><a href="inscricoes.html">INCRIÇÕES</a></li>
+    <li><a href="contato.html">CONTATO</a></li>
+    </ol>
+
+</header>
+
+
+<main class="inscricoes">
+
+    <div class="card-inscricoes">
+
+        <h2>Garanta a sua vaga!</h2>
+
+        <p>
+            Não perca a chance de participar do grande evento DevOps do Rio Grande do Norte.
+            Conhecimento, Networking e tecnologia de ponta em um só lugar.
+        </p>
+
+        <form onsubmit="mostrarMensagem(event)">
+
+            <input type="text" placeholder="Nome" required>
+            <input type= "email" placeholder="Email" required>
+            <input type="text"  placeholder="Escola ou Instituições" required>
+
+            <button type="submit">
+                Inscrever-se
+            </button>
+            
+        </form>
+
+
+    </div>
+
+</main>
+
+<script>
+
+    function mostrarMensagem(event) {
+    
+        event.preventDefault();
+    
+        alert("Inscrição realizada com sucesso! 🚀");
+    
+    }
+    
+</script>
+
+
+<footer class="direitos">
+
+    <p>
+        © 2026 DevOpsDays Natal - Todos os direitos reservados.
+    </p>
+
+</footer>
+
+    
+</body>
+</html>
