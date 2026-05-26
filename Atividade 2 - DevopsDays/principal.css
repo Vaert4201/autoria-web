@@ -2,15 +2,15 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f7fb;
-    background-image: url("https://images.unsplash.com/photo-1518770660439-4636190af475");
-    background-position: center;
+     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    background-image: url(messi.png)
 }
 
 h1{
     margin: 0;
-    background-color: rgb(2, 196, 255);
+    
     text-align: center;
     padding: 20px;
     color: white;
@@ -25,9 +25,10 @@ h1{
     top: 0;
     z-index: 1000;
 
-    background-color: rgb(2, 196, 255);
+    background-color: rgb(12, 114, 88, 0.7);
     color: white;
     padding: 15px;
+    border: none;
 }
 
 .menu{
@@ -152,9 +153,9 @@ ul a:hover{
     margin-bottom: 30px;
 }
 
-.hero-imagem img {
+.info-imagem img {
 
-    width: 350px;
+    border-radius: 15px;
 }
 
 .botao {
@@ -209,7 +210,7 @@ ul a:hover{
 
     width: 400px;
 
-    padding: 35px;
+    padding: 80px;
 
     border-radius: 20px
 
@@ -235,7 +236,6 @@ ul a:hover{
 
     display: flex;
     flex-direction: column;
-
     gap: 15px;
 }
 
@@ -264,7 +264,7 @@ ul a:hover{
 
     cursor: pointer;
 
-    transition: 0.3s;
+    transition: 0.3s
 
 }
 
@@ -278,8 +278,15 @@ ul a:hover{
 
 
 .titulo-secao {
-    color: #00b7ff;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
 }
+
+
+
+
+
 
 
 
