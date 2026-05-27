@@ -127,11 +127,19 @@ ul a:hover{
     color: white;
 
     flex-wrap: wrap;
+
+    padding: 100px 80px;
+
+    gap: 60px;
+
+
 }
 
 .info-texto {
 
     max-width: 500px;
+
+    margin-top: 30px;
 }
 
 .info-texto h2 {
@@ -156,6 +164,14 @@ ul a:hover{
 .info-imagem img {
 
     border-radius: 15px;
+
+    width: 750px;
+
+    height: auto;
+
+    margin-left: 40px;
+    
+
 }
 
 .botao {

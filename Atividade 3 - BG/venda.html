@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cobogó</title>
+    <link rel="stylesheet" href="principal.css">
+</head>
+<body>
+
+    <header class="cabecalho">
+
+        <h1><a href="index.html">Cobogós</a></h1>
+
+        <ol class="menu">
+            <li><a href="index.html">INÍCIO</a></li>
+            <li><a href="fundadores.html">FUNDADORES</a></li>
+            <li><a href="venda.html">VENDA</a></li>
+            <li><a href="info.html">INFORMAÇÕES</a></li>
+        </ol>
+
+    </header>
+
+    <section class="venda">
+
+        <div class="venda-box">
+
+            <h2>Compre o seu Cabogó</h2>
+
+            <p>Garanta já os melhores cabogós da região!</p>
+
+            <form>
+
+                <input type="text" placeholder="Digite o seu nome:" required>
+                <input type="email" placeholder="Digite o seu email" required>
+                <input type="number" placeholder="Quantidade de cabogós" required>
+
+                <select required>
+
+                    <option value="">Escolha o seu modelo</option>
+
+                    <option>Cabogó Tradicional</option>
+
+                    <option>Cabogó Moderno</option>
+
+                    <option>Cabogó Cerâmico</option>
+
+                </select>
+
+                <textarea placeholder="Observações do pedido (Opcional)"></textarea>
+
+                <button type="submit">
+
+                    FINALIZAR COMPRA
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+        <script>
+
+            function mostrarMensagem(event) {
+
+            event.preventDefault();
+
+            alert("Compra Realizada com sucesso!")
+
+            }
+
+        </script>
+
+
+    </section>
+    
+    <footer class="direitos">
+
+        <p>
+            © Cobogó — Todos os direitos reservados.
+        </p>
+    </footer>
+
+
+
+    
