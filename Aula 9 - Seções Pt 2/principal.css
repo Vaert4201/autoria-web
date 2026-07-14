@@ -1,0 +1,22 @@
+/* 
+representação das class's é "."
+representação dos id's é com "#"
+é possível usar apenas ".borda" ou "div.borda", porém são diferentes
+
+*/
+
+div {
+    padding: 2rem;
+}
+
+.borda {
+    border: 1px solid black;
+}
+
+.destaque {
+    background-color: aquamarine;
+}
+
+#cookies {
+    text-align: center;
+}
