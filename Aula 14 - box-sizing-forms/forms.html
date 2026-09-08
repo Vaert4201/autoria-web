@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIO DE CADASTRO</title>
+    <style>
+        form{
+            width: 20rem;
+            margin: 2rem auto;
+            background-color: rgb(55, 149, 154);
+            padding: 2rem;
+            border-radius: 12px;
+        }
+        label {
+            margin-bottom: 1rem;
+            display: inline-block;
+            width: 4rem;
+        }
+        input{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>FORMULÁRIO DE CADASTRO</h1>
+    <form action="resposta.html" method="get">
+        <!-- 
+        - a marcação de form envolve os campos
+        - pode ter vários formulários em uma só página
+        - a atributo action envia dados para um arquivo
+        -->
+        <label for="nome">Nome:</label>
+        <!-- a marcação de label é responsável por criar um rótulo na marcação,
+         é importante para a acessibilidade
+          visualmente NÃO muda NADA!!
+           - o atributo de 'for' deve ter o mesmo valor do id do componente 
+           input equivalente
+         -->
+        <input type="text" id="nome"> <br>
+        <!-- posso colocar o input dentro da marcação de label
+         ou colocar o input "distante" da marcação label, para este caso,
+         colocar o atributo for na label
+        -->
+        <label for="email">E-mail:</label>
+        <input type="email" id="email"> <br>
+
+        <label for="senha">Senha: </label>
+        <input type="password" id="senha"> <br>
+        <input type="submit" value="ENVIAR">
+    </form>
+    </body>
+</html>

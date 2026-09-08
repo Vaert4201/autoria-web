@@ -278,9 +278,8 @@ footer ul li img:hover {
     padding: 14px;
     border-radius: 6px;
     font-size: 1rem;
-    cursor: pointer;
     margin-top: 15px;
-    transition: background-color 0.2s ease;
+    transition: 0.2s ease;
 }
 
 .contato button:hover {
