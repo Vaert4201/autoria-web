@@ -5,6 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORMULÁRIOS</title>
+    <style>
+        form {
+            border: 1px solid black;
+            margin: 2rem auto;
+            padding: 2rem;
+            width: 20rem;
+        }
+
+        label[for]{
+            /* selecionar apenas as label's que tem o 'for' definido,
+            isto é, as label's usadas com o input 'radio' não serão
+            diagramadas porque não precisam* */
+            background-color: aqua;
+            display: inline-block;
+            width: 7rem;
+            vertical-align: top;
+        }
+    </style>
 </head>
 
 <body>
@@ -49,7 +67,7 @@
     <h2>BUSCA</h2>
     <form action="">
         <label for="busca">Busca: </label>
-        <input type="submit" id="busca"> <br>
+        <input type="search" id="busca"> <br>
         <!-- Há um input do tipo pesquisa, é similar ao text visualmente -->
         <input type="submit" value="PESQUISAR">
     </form>
