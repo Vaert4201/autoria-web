@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIO</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Endereço</legend>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" list="listacidade"> <br>
+            <!-- componente datalist permite selecionar uma opção ou digitar um texto
+                 é similar ao 'select', mas é mais flexível           
+            -->
+            <datalist id="listacidade">
+                <option value="Natal">
+                <option value="Recife">
+                <option value="João Pessoa">
+            </datalist>
+        </fieldset>
+        <fieldset>
+            <legend>Áreas de interesse</legend>
+            <label>
+                <input type="checkbox" name="interesse" id="design" value="design">
+                <!-- 
+                componente de checkbox é similar ao 'radio' em relação à sintaxe,
+                porém o checkbox permite selecionar vários
+                - também precisa definir o name, id e value
+                --> 
+                Design
+            </label> <br>
+            <label>
+                <input type="checkbox" name="interesse" id="desenvolvimento" value="desenvolvimento">
+                Desenvolvimento 
+            </label> <br>
+
+            <label for="data">Data de conclusão de curso:</label>
+            <input type="date" id="data"><br>
+
+            <label for="curriculo">Currículo:</label>
+            <input type="file" id="curriculo">
+            <!-- componente que permite anexar um arquivo
+            a restrição do tipo de arquivo deve ser feita com javascript 
+            -->
+        </fieldset><br>
+        <input type="submit" value="ENVIAR">
+        <!-- o fieldset é um componente para organizar os campos do formulário...
+         é totalmente opcional
+        -->
+    </form>
+</body>
+</html>
