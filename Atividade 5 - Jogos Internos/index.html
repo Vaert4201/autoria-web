@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jogos Internos – IFRN CNAT</title>
+  <link rel="stylesheet" href="principal.css">
+</head>
+<body>
+ 
+  <header class="topo">
+    <div class="topo__interno">
+      <div class="marca">
+        <h1>JOGOS INTERNOS</h1>
+        <p>IFRN CNAT</p>
+      </div>
+ 
+      <nav class="menu" aria-label="Principal">
+        <a href="#atletas">Atletas</a>
+        <a href="#jogos">Jogos</a>
+        <a href="#resultados">Resultados</a>
+        <a href="#fotos">Fotos</a>
+      </nav>
+ 
+      <details class="menu-mobile">
+        <summary aria-label="Menu"><i></i><i></i><i></i></summary>
+        <nav aria-label="Principal no celular">
+          <a href="#atletas">Atletas</a>
+          <a href="#jogos">Jogos</a>
+          <a href="#resultados">Resultados</a>
+          <a href="#fotos">Fotos</a>
+        </nav>
+      </details>
+    </div>
+  </header>
+ 
+  <main class="conteudo">
+    <section class="painel painel--jogos" id="jogos" aria-label="Jogos">
+      <ul class="grade">
+        <li><a class="card" href="#jogos">Vôlei</a></li>
+        <li><a class="card" href="#jogos">Futsal</a></li>
+        <li><a class="card" href="#jogos">Handebol</a></li>
+        <li><a class="card" href="#jogos">Xadrez</a></li>
+        <li><a class="card" href="#jogos">Basquete</a></li>
+        <li><a class="card" href="#jogos">Queimada</a></li>
+        <li><a class="card" href="#jogos">Tênis de mesa</a></li>
+        <li><a class="card" href="#jogos">Corrida</a></li>
+        <li><a class="card" href="#jogos">Cabo de guerra</a></li>
+      </ul>
+    </section>
+ 
+    <form class="painel painel--lateral" action="#jogos" method="get">
+      <label class="busca__rotulo" for="busca">Busca:</label>
+      <input class="busca__campo" id="busca" name="busca" type="search" list="lista-jogos" autocomplete="off">
+      <datalist id="lista-jogos">
+        <option value="Vôlei">
+        <option value="Futsal">
+        <option value="Handebol">
+        <option value="Xadrez">
+        <option value="Basquete">
+        <option value="Queimada">
+        <option value="Tênis de mesa">
+        <option value="Corrida">
+        <option value="Cabo de guerra">
+      </datalist>
+ 
+ 
+      <div class="calendario">
+        <table>
+          <caption>Outubro de 2026</caption>
+          <thead>
+            <tr><th scope="col" abbr="Domingo">D</th><th scope="col" abbr="Segunda">S</th><th scope="col" abbr="Terça">T</th><th scope="col" abbr="Quarta">Q</th><th scope="col" abbr="Quinta">Q</th><th scope="col" abbr="Sexta">S</th><th scope="col" abbr="Sábado">S</th></tr>
+          </thead>
+          <tbody>
+          <tr><td></td><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td></tr>
+          <tr><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr>
+          <tr><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td></tr>
+          <tr><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td></tr>
+          <tr><td>25</td><td>26</td><td class="hoje"><span>27</span></td><td>28</td><td>29</td><td>30</td><td>31</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </form>
+  </main>
+ 
+  <footer class="rodape">DESENVOLVIDO POR INFOWEB</footer>
+ 
+</body>
+</html>

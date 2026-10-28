@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bola de Ouro</title>
+    <style>
+        * {
+            margin: 4px;
+            padding: 6px;
+        }
+        @media screen and (max-width: 768px) {
+            body {
+                background-color: blue;
+            }
+        }
+        
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 120px;
+        }
+
+        form {
+            background-color: gold;
+            border-radius: 10px;
+            padding: 80px;
+            box-shadow: 8px 8px;
+        }
+
+        form h4 {
+            font-size: 20px;
+        }
+
+        .ajuda {
+            position: absolute;
+            background-color: aqua;
+            border-radius: 6px;
+            padding: 10px;
+            width: 60px;
+            top: 40px;
+            right: 120px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Decisão da Bola de Ouro</h1>
+        
+        <button class="ajuda">Ajuda</button>
+    </header>
+
+    <main>
+        <form>
+            <h4>Quem é o bola de ouro?</h4>
+            <label>
+                <input type="radio" name="bola" value="1">
+                Harry Kane
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="bola" value="2">
+                Lamine Yamal
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="bola" value="3">
+                Kylian Mbappé
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="bola" value="4">
+                Lionel Messi
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="bola" value="5">
+                Rodri
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="bola" value="6">
+                Outro
+            </label>
+            <br>
+            <label>
+                <input type="submit">
+            </label>
+        </form>
+    </main>
+</body>
+</html>
