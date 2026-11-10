@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISPLAY GRID</title>
+    <style>
+        body>div {
+            border: 1px solid black;
+            max-width: 70rem; /* max-width é para responsividade */
+            margin: 0 auto; /* é possível centralizar com flex ou com width e margin auto...*/
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem; /* espaçamento entre os cards*/
+            padding: 2rem; /* espaçamento interno*/
+            justify-content: center;
+        }
+        div>div {
+            border: 1px solid gray;
+            padding: 2rem;
+            width: 40%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nobis quia aut molestias nihil voluptatum dolore, ullam numquam incidunt placeat esse. Possimus magnam inventore rerum dolores iusto vitae doloremque dignissimos!</p>
+        </div>
+        <div>
+            <p>Dolorem dolores libero blanditiis amet nam officia distinctio at. Ut deserunt totam rem quas dolorum corporis atque labore. A eaque facere molestias ullam odio blanditiis dolores enim voluptas, maiores optio.</p>
+        </div>
+        <div>
+            <p>Autem in tempora veniam alias. Debitis unde odit eaque. Minima voluptates ullam officia, repellendus aut impedit necessitatibus laborum nihil beatae temporibus ex veniam incidunt accusamus. Quasi quod eos atque? Quo.</p>
+        </div>
+        <div>
+            <p>Aliquid voluptatem reiciendis cum error pariatur, expedita odio iure similique illo! Maiores debitis ut cumque voluptates. Quod modi obcaecati, quibusdam deleniti quae, asperiores debitis aut exercitationem aliquid ipsam, consequatur quam?</p>
+        </div>
+    </div>
+</body>
+</html>

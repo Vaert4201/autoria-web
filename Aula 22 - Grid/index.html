@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISPLAY GRID</title>
+    <style>
+        body>div {
+            border: 1px solid black;
+            max-width: 70rem; /* max-width é para responsividade */
+            margin: 0 auto; /* é possível centralizar com flex ou com width e margin auto...*/
+            gap: 2rem; /* espaçamento entre os cards*/
+            padding: 2rem; /* espaçamento interno*/
+            display: grid; /* display grid permite diagramação com cards mesclados verticalmente */
+            grid-template-areas: 
+            "a b"
+            "a c"
+            "d d"      
+            ;
+            /* o "." coloca um espaço vazio */
+            /* as áreas não podem ficar distantes, nem em formato de "L" ou não aparecer */
+            grid-template-columns: 2fr 1fr; /* Define a largura de cada coluna, recebe os valores de largura
+            das colunas, se forem definidas 3 colunas, devem ser definidos 3 valores.... e
+            asisim sucessivamente.
+            Unidade: rem, em, %, fr...
+            fr = fracionado*/
+            grid-template-rows: 10rem 20rem 10rem; /*Define a altura das linhas*/
+            /*CUIDADO com a definição de altura de linhas, porque se o conteúdo
+            ultrapassar os valores o texto ficará fora da área
+            */
+        }
+        div>div {
+            border: 1px solid gray;
+            padding: 2rem;
+            overflow: auto; /*barra de rolagem*/
+        }
+        .palestras{     grid-area: a;}
+        .palestrantes{  grid-area: b;}
+        .minicursos{    grid-area: c;}
+        .exposicoes{    grid-area: d;}
+    </style>
+</head>
+<body>
+    <div>
+        <div class="palestras">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nobis quia aut molestias nihil voluptatum dolore, ullam numquam incidunt placeat esse. Possimus magnam inventore rerum dolores iusto vitae doloremque dignissimos!</p>
+        </div>
+        <div class="palestrantes">
+            <p>Dolorem dolores libero blanditiis amet nam officia distinctio at. Ut deserunt totam rem quas dolorum corporis atque labore. A eaque facere molestias ullam odio blanditiis dolores enim voluptas, maiores optio.</p>
+        </div>
+        <div class="minicursos">
+            <p>Autem in tempora veniam alias. Debitis unde odit eaque. Minima voluptates ullam officia, repellendus aut impedit necessitatibus laborum nihil beatae temporibus ex veniam incidunt accusamus. Quasi quod eos atque? Quo.</p>
+        </div>
+        <div class="exposicoes">
+            <p>Aliquid voluptatem reiciendis cum error pariatur, expedita odio iure similique illo! Maiores debitis ut cumque voluptates. Quod modi obcaecati, quibusdam deleniti quae, asperiores debitis aut exercitationem aliquid ipsam, consequatur quam?</p>
+        </div>
+    </div>
+</body>
+</html>
